@@ -1,1 +1,4 @@
-# nxp_deeptechhackathon_bandgap
+This project implements a lightweight CNN-based defect classifier for semiconductor wafer inspection, designed for edge deployment using ONNX and NXP eIQ Toolkit.
+
+
+This repository contains two main folders: source_code/, which includes all Python scripts used for data preprocessing (preprocess.py), dataset splitting (create_val_split.py), model training (train.py), evaluation and metrics generation (evaluate.py), ONNX export (export_onnx.py), and ONNX validation (onnx_sanity_check.py); and model/, which stores the trained edge-deployable model in ONNX format (nxp_defect_model.onnx) along with its external weight data file (nxp_defect_model.onnx.data). Additional files include README.md for project documentation, reportnxp.pdf for detailed project reporting, and Bandgap_Phase1.pdf for related reference material.
